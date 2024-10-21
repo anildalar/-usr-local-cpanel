@@ -1,1 +1,5 @@
 .panel-heading{line-height:22px}.ticket-id{font-weight:bold}.server-id{width:15%}.ssh-username{width:10%}.ssh-info{width:15%}.ssh-grant-time{width:15%}.ssh-status .status-success span.glyphicon{color:#3c763d}.ssh-status .status-failure span.glyphicon{color:#a94442}.ssh-status{width:20%}.ssh-status,.ssh-actions{text-align:right}.ssh-actions{width:25%}.ssh-actions button{margin:2px 0}table tr.auth-row td{vertical-align:middle}.monospaced{font-family:monospace}
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

@@ -1,1 +1,5 @@
 ul.appconfig-head{margin:0;padding:0}ul.appconfig-head li{display:inline;float:left;margin-right:20px}ul.appconfig-head ul li{display:block;float:none;list-style:none}.appconfig-head h4{margin-bottom:5px}.yui-skin-sam .yui-dt td{word-wrap:break-word}
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

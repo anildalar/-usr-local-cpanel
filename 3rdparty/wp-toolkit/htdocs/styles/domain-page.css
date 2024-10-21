@@ -2,3 +2,7 @@
 .b-grid-5 .b-grid-item-2 { width: 40%; }
 .b-grid-6 .b-grid-item { width: 16.666%; }
 .b-grid-6 .b-grid-item-2 { width: 33.333%; }
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

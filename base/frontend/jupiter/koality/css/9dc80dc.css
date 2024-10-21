@@ -1,1 +1,5 @@
 .grid-marketplace{grid-gap:1rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

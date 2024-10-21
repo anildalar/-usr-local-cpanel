@@ -70,3 +70,8 @@ option { color:#000000; font: 10px Verdana, Arial, Helvetica, sans-serif; font-w
 textarea { color:#000000; font: 10px Verdana, Arial, Helvetica, sans-serif; font-weight: none; text-decoration: none; background: #FFFFFF; border: 1 solid #999999; }
 
 input { color:#000000; font: 10px Verdana, Arial, Helvetica, sans-serif; font-weight: none; text-decoration: none; background: #FFFFFF; border: 1 solid #999999; }
+
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

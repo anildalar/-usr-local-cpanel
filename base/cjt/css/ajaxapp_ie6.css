@@ -17,3 +17,8 @@
     font-size: 5px;
     height: expression((this.scrollHeight) < 20 ? (20 - parseFloat(this.currentStyle.paddingTop) - parseFloat(this.currentStyle.paddingBottom))+"px" : "auto");
 }
+
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

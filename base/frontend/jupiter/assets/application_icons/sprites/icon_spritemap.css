@@ -108,3 +108,8 @@
 .icon-webalizer_ftp { background-size: 5612px 48px; background-position: -5458px 0; width: 48px; height: 48px; }
 .icon-wp-toolkit { background-size: 5612px 48px; background-position: -5511px 0; width: 48px; height: 48px; }
 .icon-zone_editor { background-size: 5612px 48px; background-position: -5564px 0; width: 48px; height: 48px; }
+
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

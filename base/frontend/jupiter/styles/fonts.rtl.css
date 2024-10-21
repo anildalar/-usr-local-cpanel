@@ -86,3 +86,7 @@ https://remixicon.com/
   src: url("jupiter-styles/dist/scss/fonts/remixicon.woff2") format("woff2");
 }
 /*# sourceMappingURL=fonts.rtl.css.map */
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

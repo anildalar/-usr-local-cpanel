@@ -1,1 +1,5 @@
 .userlist{width:315px}.extrapad{padding:15px}.controlContainer>div{display:table-cell}#delegateWrapper>button{margin:10px 0 0}.selectWrapper p{text-align:center;font-weight:bold;font-size:14px;margin:5px 0}.controls{vertical-align:middle;padding:28px 0 0}.controls button{float:left;margin:0 5px 5px;vertical-align:middle;width:40px}.arrow-button{font-size:18px}.needs-save{font-weight:900;color:blue}
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

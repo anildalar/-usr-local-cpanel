@@ -165,3 +165,7 @@ version: 2.9.0
 .yui-skin-sam .yui-pv-minimized .bd {top:-3000px;}
 
 .yui-skin-sam .yui-pv-minimized .hd a.yui-pv-refresh {display:none;}
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

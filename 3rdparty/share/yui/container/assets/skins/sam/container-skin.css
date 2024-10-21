@@ -240,3 +240,7 @@ version: 2.9.0
     opacity: .12;
     filter: alpha(opacity=12);  /* For IE */
 }
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

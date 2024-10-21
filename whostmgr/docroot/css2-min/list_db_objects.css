@@ -1,1 +1,5 @@
 .yui-overlay{position:absolute;}.pagination{margin-top:0;margin-bottom:0;cursor:pointer;}.form-inline .page-size-controller{vertical-align:top;}.pagination > li .cp-page-jumper{float:left;text-align:center;font-weight:bold;border:1px solid #eed;border-left:none;height:34px;box-sizing:border-box;}.pagination > li .cp-page-jumper[disabled]{color:graytext;cursor:not-allowed;}.cjt-notice-content textarea{color:#333;}
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

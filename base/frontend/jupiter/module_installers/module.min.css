@@ -1,1 +1,5 @@
 .panel{visibility:visible}#module-output-formatted{white-space:pre-wrap}.or-separator{margin-right:25px}.mod-form-container{margin-bottom:15px}.mod-form-input{float:left;margin-right:10px;margin-bottom:15px}.mod-form-input-search{width:90%}.mod-form-input-install{width:67%}
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

@@ -368,7 +368,7 @@ sub _trial_banner {
 
     my $banner = '';
     if ( $opts_hr->{'_is_trial'} ) {    # The lack of localization is intentional
-        $banner = '<div style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"><div style="width: 250px; margin: 0 auto;">This server uses a trial license</div></div>';
+        $banner = '<div style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"></div>';
     }
     return $banner;
 }

@@ -165,3 +165,5 @@
 171.61.5.164 - root [10/21/2024:10:56:18 -0000] "POST /cpsess0075401461/json-api/purchase_a_trial HTTP/1.1" 200 0 "https://185.239.209.8:2087/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" "s" "-" 2087
 171.61.5.164 - root [10/21/2024:10:56:39 -0000] "POST /cpsess0075401461/json-api/purchase_a_trial HTTP/1.1" 200 0 "https://185.239.209.8:2087/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" "s" "-" 2087
 171.61.5.164 - root [10/21/2024:10:57:07 -0000] "POST /cpsess0075401461/json-api/run_cpkeyclt HTTP/1.1" 200 0 "https://185.239.209.8:2087/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" "s" "-" 2087
+127.0.0.1 - - [10/21/2024:11:05:03 -0000] "GET /.__cpanel__service__check__./serviceauth?sendkey=__HIDDEN__&version=1.2 HTTP/1.0" 200 0 "-" "-" "-" "-" 2086
+127.0.0.1 - - [10/21/2024:11:10:05 -0000] "GET /.__cpanel__service__check__./serviceauth?sendkey=__HIDDEN__&version=1.2 HTTP/1.0" 200 0 "-" "-" "-" "-" 2086

@@ -39,3 +39,11 @@ Oct 21 12:49:58.421 [91452] info: spamd: connection from localhost [::1]:47050 t
 Oct 21 12:49:58.507 [88111] info: prefork: child states: II
 Oct 21 12:55:00.760 [91452] info: spamd: connection from localhost [::1]:49496 to port 783, fd 5
 Oct 21 12:55:00.867 [88111] info: prefork: child states: II
+Oct 21 13:05:02.038 [91452] info: spamd: connection from localhost [::1]:53140 to port 783, fd 5
+Oct 21 13:05:02.178 [88111] info: prefork: child states: II
+Oct 21 13:10:04.469 [91452] info: spamd: connection from localhost [::1]:51708 to port 783, fd 5
+Oct 21 13:10:04.582 [88111] info: prefork: child states: II
+Oct 21 13:15:06.929 [91452] info: spamd: connection from localhost [::1]:51290 to port 783, fd 5
+Oct 21 13:15:07.035 [88111] info: prefork: child states: II
+Oct 21 13:20:44.736 [91452] info: spamd: connection from localhost [::1]:53506 to port 783, fd 5
+Oct 21 13:20:44.834 [88111] info: prefork: child states: II

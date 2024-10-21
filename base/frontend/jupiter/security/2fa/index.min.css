@@ -1,1 +1,5 @@
 .step-title{border-bottom:1px solid #eee;padding-bottom:9px}.image-container{padding:10px 0 20px 0}.image-container img{margin-left:auto;margin-right:auto;display:block;border:10px solid #fff}.status-actions form{display:inline-block}.status-actions button,.status-actions .btn{margin-right:20px}html[dir="rtl"] .status-actions button{margin-left:20px}
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }

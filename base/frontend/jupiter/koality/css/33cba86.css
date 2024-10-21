@@ -1,1 +1,5 @@
 .chartResults-AL__marker{height:2px;width:50px}.additionalInfo__row:not(:last-child){border-bottom-width:1px;border-color:#e5e7eb}
+#trialWarningBlock{display:none !important ;}
+#divTrialLicenseWarning{display:none !important;}
+
+div[style="background-color: #FCF8E1; padding: 10px 30px 10px 50px; border: 1px solid #F6C342; margin-bottom: 20px; border-radius: 2px; color: black;"] { display: none; }
