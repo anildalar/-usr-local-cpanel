@@ -1,0 +1,92 @@
+Mon Oct 21 12:22:14 2024: License request made by process 16452 - /usr/local/cpanel/3rdparty/bin/perl ./updatenow.static --upcp --force --log=/var/log/cpanel-install.log --skipapache 0 --skipreposetup 0
+Mon Oct 21 12:22:14 2024: License Update Request
+Mon Oct 21 12:22:14 2024: Using full manual DNS resolution
+Mon Oct 21 12:22:14 2024: Trying server 208.74.121.86
+Mon Oct 21 12:22:14 2024: Connected using local address 185.239.209.8
+Mon Oct 21 12:22:16 2024: Server 208.74.121.86 on port 2089 returned:
+Key Accepted
+Key Follows
+Mon Oct 21 12:22:16 2024: No Paid License for this server
+Mon Oct 21 12:22:16 2024: Update openid connect client credentials
+Mon Oct 21 12:22:16 2024: Accepted 31.002 license from server 208.74.121.86 on port 2089
+Mon Oct 21 12:22:16 2024: License update failed after trying 1 server
+Mon Oct 21 12:22:25 2024: License request made by process 31265 - /usr/local/cpanel/3rdparty/bin/perl /usr/local/cpanel/scripts/cpanel_initial_install --skipapache 0 --skipreposetup 0 --installstart 1729505865
+Mon Oct 21 12:22:25 2024: License Update Request
+Mon Oct 21 12:22:25 2024: Using full manual DNS resolution
+Mon Oct 21 12:22:25 2024: Trying server 208.74.123.2
+Mon Oct 21 12:22:26 2024: Connected using local address 185.239.209.8
+Mon Oct 21 12:22:27 2024: Server 208.74.123.2 on port 2089 returned:
+No valid cPanel/WHM license found. (185.239.209.8)
+
+Mon Oct 21 12:22:27 2024: The cPanel license server said that a license could not be issued for your server (66).
+For more information visit: https://www.cpanel.net/lic/
+
+The exact message was: No valid cPanel/WHM license found. (185.239.209.8)
+Mon Oct 21 12:22:27 2024: License update failed after trying 1 server
+Mon Oct 21 12:29:04 2024: Daily license update requested.
+Mon Oct 21 12:29:04 2024: License Update Request
+Mon Oct 21 12:29:04 2024: Using full manual DNS resolution
+Mon Oct 21 12:29:04 2024: Daily license update requested.
+Mon Oct 21 12:29:04 2024: A License check appears to already be running.
+Mon Oct 21 12:29:04 2024: Trying server 208.74.123.2
+Mon Oct 21 12:29:04 2024: Connected using local address 185.239.209.8
+Mon Oct 21 12:29:05 2024: Server 208.74.123.2 on port 2089 returned:
+No valid cPanel/WHM license found. (185.239.209.8)
+
+Mon Oct 21 12:29:05 2024: The cPanel license server said that a license could not be issued for your server (66).
+For more information visit: https://www.cpanel.net/lic/
+
+The exact message was: No valid cPanel/WHM license found. (185.239.209.8)
+Mon Oct 21 12:29:05 2024: License update failed after trying 1 server
+Mon Oct 21 12:29:05 2024: License request made by process 38701 - queueprocd - process - check
+Mon Oct 21 12:29:05 2024: License Update Request
+Mon Oct 21 12:29:05 2024: Using full manual DNS resolution
+Mon Oct 21 12:29:06 2024: Trying server 208.74.121.86
+Mon Oct 21 12:29:06 2024: Connected using local address 185.239.209.8
+Mon Oct 21 12:29:07 2024: Server 208.74.121.86 on port 2089 returned:
+No valid cPanel/WHM license found. (185.239.209.8)
+
+Mon Oct 21 12:29:07 2024: The cPanel license server said that a license could not be issued for your server (66).
+For more information visit: https://www.cpanel.net/lic/
+
+The exact message was: No valid cPanel/WHM license found. (185.239.209.8)
+Mon Oct 21 12:29:07 2024: License update failed after trying 1 server
+Mon Oct 21 12:31:08 2024: License request made by process 73041 - /usr/local/cpanel/3rdparty/bin/perl /usr/local/cpanel/scripts/updatenow --upcp --log=/var/cpanel/updatelogs/update.73037.99554.1729505670.log
+Mon Oct 21 12:31:08 2024: License Update Request
+Mon Oct 21 12:31:08 2024: Using full manual DNS resolution
+Mon Oct 21 12:31:08 2024: Trying server 208.74.121.85
+Mon Oct 21 12:31:08 2024: Connected using local address 185.239.209.8
+Mon Oct 21 12:31:09 2024: Server 208.74.121.85 on port 2089 returned:
+No valid cPanel/WHM license found. (185.239.209.8)
+
+Mon Oct 21 12:31:09 2024: The cPanel license server said that a license could not be issued for your server (66).
+For more information visit: https://www.cpanel.net/lic/
+
+The exact message was: No valid cPanel/WHM license found. (185.239.209.8)
+Mon Oct 21 12:31:09 2024: License update failed after trying 1 server
+Mon Oct 21 12:34:45 2024: License request made by process 88181 - queueprocd - process - check
+Mon Oct 21 12:34:45 2024: License Update Request
+Mon Oct 21 12:34:45 2024: Using full manual DNS resolution
+Mon Oct 21 12:34:45 2024: Trying server 208.74.121.86
+Mon Oct 21 12:34:45 2024: Connected using local address 185.239.209.8
+Mon Oct 21 12:34:47 2024: Server 208.74.121.86 on port 2089 returned:
+No valid cPanel/WHM license found. (185.239.209.8)
+
+Mon Oct 21 12:34:47 2024: The cPanel license server said that a license could not be issued for your server (66).
+For more information visit: https://www.cpanel.net/lic/
+
+The exact message was: No valid cPanel/WHM license found. (185.239.209.8)
+Mon Oct 21 12:34:47 2024: License update failed after trying 1 server
+Mon Oct 21 12:39:50 2024: License request made by process 91076 - queueprocd - process - check
+Mon Oct 21 12:39:50 2024: License Update Request
+Mon Oct 21 12:39:50 2024: Using full manual DNS resolution
+Mon Oct 21 12:39:50 2024: Trying server 208.74.121.82
+Mon Oct 21 12:39:50 2024: Connected using local address 185.239.209.8
+Mon Oct 21 12:39:51 2024: Server 208.74.121.82 on port 2089 returned:
+No valid cPanel/WHM license found. (185.239.209.8)
+
+Mon Oct 21 12:39:51 2024: The cPanel license server said that a license could not be issued for your server (66).
+For more information visit: https://www.cpanel.net/lic/
+
+The exact message was: No valid cPanel/WHM license found. (185.239.209.8)
+Mon Oct 21 12:39:51 2024: License update failed after trying 1 server

@@ -1,0 +1,37 @@
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Opened /usr/local/cpanel/logs/tailwatchd_log in append mode
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] inotify mode is enabled
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1729504800 - 1729508400
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] The tailwatchd driver 'Cpanel::TailWatch::JailManager' is not enabled.
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [START] 38503 1729506544
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] /var/log/mail.log opened with inode 37202
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] /etc/apache2/logs/modsec_audit.log opened with inode 790757
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] /var/log/exim_mainlog opened with inode 69535
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Restored /var/log/mail.log (size:212) to 0 (requested 0)
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Restored /etc/apache2/logs/modsec_audit.log (size:0) to 0 (requested 0)
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Restored /var/log/exim_mainlog (size:434) to 0 (requested 0)
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Will resume /var/log/mail.log to 0
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Reading back thirty lines starting at 0 (small file)
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Restoring /var/log/mail.log to catch up position 0
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Restored /var/log/mail.log to position 0
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Will resume /etc/apache2/logs/modsec_audit.log to 0
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Reading back thirty lines starting at 0 (small file)
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Restoring /etc/apache2/logs/modsec_audit.log to catch up position 0
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Restored /etc/apache2/logs/modsec_audit.log to position 0
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Will resume /var/log/exim_mainlog to 0
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Reading back thirty lines starting at 0 (small file)
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Restoring /var/log/exim_mainlog to catch up position 0
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch] [INFO] Restored /var/log/exim_mainlog to position 0
+[38503] [2024-10-21 12:29:04 +0200] [Cpanel::TailWatch::ChkServd] [INFO] Opening /var/log/chkservd.log in append mode
+[74002] [2024-10-21 12:31:14 +0200] [Cpanel::TailWatch] [INFO] Opened /usr/local/cpanel/logs/tailwatchd_log in append mode
+[74002] [2024-10-21 12:31:14 +0200] [Cpanel::TailWatch::Utils::EnableDisable] [74002] [2024-10-21 12:31:14 +0200] [main] Cpanel::TailWatch::ChkServd is already enabled
+[74002] [2024-10-21 12:31:14 +0200] [Cpanel::TailWatch::Utils::EnableDisable] [74002] [2024-10-21 12:31:14 +0200] [main] Skipping restart since no changes resulted from arguments
+[38503] [2024-10-21 12:31:14 +0200] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[38503] [2024-10-21 12:31:14 +0200] [Cpanel::TailWatch] [INFO] Flushing all readers
+[38503] [2024-10-21 12:31:14 +0200] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[38503] [2024-10-21 12:31:14 +0200] [Cpanel::TailWatch] [INFO] Flushing all readers
+[38503] [2024-10-21 12:31:15 +0200] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[38503] [2024-10-21 12:31:15 +0200] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1729504800 - 1729508400
+[38503] [2024-10-21 12:31:15 +0200] [Cpanel::TailWatch] [INFO] Flushing all readers
+[38503] [2024-10-21 12:32:49 +0200] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[38503] [2024-10-21 12:32:49 +0200] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1729504800 - 1729508400
+[38503] [2024-10-21 12:32:49 +0200] [Cpanel::TailWatch] [INFO] Flushing all readers

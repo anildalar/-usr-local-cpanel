@@ -1,0 +1,23 @@
+Oct 21 12:29:04.690 [38494] warn: config: could not find sys rules directory
+Oct 21 12:29:05.489 [38494] warn: config: registryboundaries: no tlds defined, need to run sa-update
+Oct 21 12:29:06.008 [38494] info: spamd: server started on IO::Socket::IP [::1]:783, IO::Socket::IP [127.0.0.1]:783 (running version 4.0.1)
+Oct 21 12:29:06.009 [38494] info: spamd: server pid: 38494
+Oct 21 12:29:06.011 [38494] info: spamd: server successfully spawned child process, pid 38724
+Oct 21 12:29:06.015 [38494] info: spamd: server successfully spawned child process, pid 38725
+Oct 21 12:29:06.020 [38494] info: prefork: child states: IS
+Oct 21 12:29:06.025 [38494] info: prefork: child states: II
+Oct 21 12:29:08.031 [38494] info: spamd: handled cleanup of child pid [38725] due to SIGCHLD: interrupted, signal 2 (0002)
+Oct 21 12:32:45.665 [79860] warn: config: could not find sys rules directory
+Oct 21 12:32:46.305 [79860] warn: config: registryboundaries: no tlds defined, need to run sa-update
+Oct 21 12:32:46.753 [79860] info: spamd: server started on IO::Socket::IP [::1]:783, IO::Socket::IP [127.0.0.1]:783 (running version 4.0.1)
+Oct 21 12:32:46.753 [79860] info: spamd: server pid: 79860
+Oct 21 12:32:46.756 [79860] info: spamd: server successfully spawned child process, pid 79941
+Oct 21 12:32:46.778 [79860] info: spamd: server successfully spawned child process, pid 79944
+Oct 21 12:32:46.780 [79860] info: prefork: child states: II
+Oct 21 12:32:48.786 [79860] info: spamd: handled cleanup of child pid [79944] due to SIGCHLD: interrupted, signal 2 (0002)
+Oct 21 12:34:44.624 [88111] info: zoom: able to use 1208/1209 'body_0' compiled rules (99.917%)
+Oct 21 12:34:46.517 [88111] info: spamd: server started on IO::Socket::IP [::1]:783, IO::Socket::IP [127.0.0.1]:783 (running version 4.0.1)
+Oct 21 12:34:46.519 [88111] info: spamd: server pid: 88111
+Oct 21 12:34:46.522 [88111] info: spamd: server successfully spawned child process, pid 88215
+Oct 21 12:34:46.527 [88111] info: spamd: server successfully spawned child process, pid 88216
+Oct 21 12:34:46.531 [88111] info: prefork: child states: II
