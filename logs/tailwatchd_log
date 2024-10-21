@@ -35,3 +35,4 @@
 [38503] [2024-10-21 12:32:49 +0200] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
 [38503] [2024-10-21 12:32:49 +0200] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1729504800 - 1729508400
 [38503] [2024-10-21 12:32:49 +0200] [Cpanel::TailWatch] [INFO] Flushing all readers
+[38503] [2024-10-21 13:00:00 +0200] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1729508400

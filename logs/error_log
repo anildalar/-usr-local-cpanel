@@ -1238,3 +1238,286 @@ License Check Failed during startup of cpsrvd: Cannot read license file
 License Check Failed: Cannot read license file
 [2024-10-21 12:39:50 +0200] info [cpsrvd] version 11.122.0.21 online
 [2024-10-21 12:41:21 +0200] info [cpsrvd] Request Timeout: "-" 408 Timeout while creating a secure connection
+==> cpsrvd 11.122.0.21 started
+==> cpsrvd: loading security policy....Done
+==> cpsrvd: Setting up SSL support ... Done
+License Check Failed during startup of cpsrvd: Cannot read license file
+==> cpsrvd: transferred port bindings: 10,3,4,5,6,7,8,9,11,12
+==> CONFIGURATION CHANGE: closing FD 11 (webmail, port 2095)
+==> CONFIGURATION CHANGE: closing FD 12 (webmail_ssl, port 2096)
+==> cpsrvd: bound to ports
+License Check Failed: Cannot read license file
+[2024-10-21 12:49:59 +0200] info [cpsrvd] version 11.122.0.21 online
+==> cpsrvd 11.122.0.21 started
+==> cpsrvd: loading security policy....Done
+==> cpsrvd: Setting up SSL support ... Done
+License Check Failed during startup of cpsrvd: Cannot read license file
+==> cpsrvd: transferred port bindings: 10,3,4,5,6,7,8,9,11,12
+==> CONFIGURATION CHANGE: closing FD 11 (webmail, port 2095)
+==> CONFIGURATION CHANGE: closing FD 12 (webmail_ssl, port 2096)
+==> cpsrvd: bound to ports
+License Check Failed: Cannot read license file
+[2024-10-21 12:53:58 +0200] info [cpsrvd] version 11.122.0.21 online
+[2024-10-21 12:54:00 +0200] warn [Internal Warning while parsing [stdin] 92245] Use of uninitialized value $current_company_id in numeric eq (==) at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/CompanyId.pm line 99.
+ at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/CompanyId.pm line 99.
+	Cpanel::Plugins::Components::Rules::CompanyId::is_allowed(Cpanel::Plugins::Components::Rules::CompanyId=HASH(0x4cc41e8)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/Base.pm line 56
+	Cpanel::Plugins::Components::Rules::Base::process_rule(Cpanel::Plugins::Components::Rules::And=HASH(0x4c9bcc8), "company-id", ARRAY(0x4bf7198)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/And.pm line 117
+	Cpanel::Plugins::Components::Rules::And::is_allowed(Cpanel::Plugins::Components::Rules::And=HASH(0x4c9bcc8)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/Base.pm line 56
+	Cpanel::Plugins::Components::Rules::Base::process_rule(Cpanel::Plugins::Components::Rules::Base=HASH(0x4c9b8c0), ARRAY(0x4c14568), "") called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules.pm line 120
+	Cpanel::Plugins::Components::Rules::is_allowed(Cpanel::Plugins::Components::Rules=HASH(0x4c92590)) called at /usr/local/cpanel/Cpanel/Plugins/Components/whostmgr/home/360_prerelease_education.pm line 141
+	Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education::__ANON__(Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education=HASH(0x4c376b0)) called at (eval 951) line 21
+	Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education::is_enabled(Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education=HASH(0x4c376b0)) called at /usr/local/cpanel/Cpanel/Plugins/Components.pm line 58
+	Cpanel::Plugins::Components::get_components("whostmgr", "home") called at /usr/local/cpanel/Cpanel/Template/Plugin/Components.pm line 64
+	Cpanel::Template::Plugin::Components::get_components(Cpanel::Template::Plugin::Components=HASH(0x2d018e0), "whostmgr", "home") called at /usr/local/cpanel/Cpanel/Template/Plugin/Components.pm line 83
+	Cpanel::Template::Plugin::Components::has_components_for(Cpanel::Template::Plugin::Components=HASH(0x2d018e0), "whostmgr", "home", "page-top") called at (eval 4) line 317
+	eval {...} called at (eval 4) line 317
+	eval {...} called at (eval 4) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x2af0fc0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x2c59558), Template::Context=HASH(0x2af0fc0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x2af0fc0), "master_templates/_defheader.tmpl") called at (eval 3) line 1
+	eval {...} called at (eval 3) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x2af0fc0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x2bea4d8), Template::Context=HASH(0x2af0fc0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x2af0fc0), "master_templates/master.tmpl", HASH(0x2bd9860), "localize me!") called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 410
+	Template::Context::include(Template::Context=HASH(0x2af0fc0), "master_templates/master.tmpl", HASH(0x2bd9860)) called at (eval 2) line 15
+	eval {...} called at (eval 2) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x2af0fc0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x2bd96c8), Template::Context=HASH(0x2af0fc0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x2af0fc0), Template::Document=HASH(0x2bd96c8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Service.pm line 94
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Service.pm line 91
+	Template::Service::process(Template::Service=HASH(0x2af0b88), "initial-setup-wizard/index.html.tt", HASH(0x2ae7230)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template.pm line 66
+	Template::process(Template=HASH(0x2af07e0), "initial-setup-wizard/index.html.tt", HASH(0x2ae7230)) called at /usr/local/cpanel/Cpanel/Template.pm line 473
+	Cpanel::Template::process_template("whostmgr", HASH(0x2ae7230)) called at whostmgr/bin/whostmgr3.pl line 212
+	main::initial_setup_wizard1() called at whostmgr/bin/whostmgr3.pl line 150
+	main::__ANON__(__CPANEL_HIDDEN__) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 364
+	Whostmgr::Dispatch::_do_call("initial_setup_wizard1", HASH(0x2abd208), HASH(0x2abcf50)) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 176
+	Whostmgr::Dispatch::dispatch("initial_setup_wizard1", 14337, ARRAY(0x2abcef0)) called at whostmgr/bin/whostmgr3.pl line 153
+
+
+[2024-10-21 12:54:00 +0200] warn [Internal Warning while parsing [stdin] 92245] Use of uninitialized value $current_company_id in numeric eq (==) at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/CompanyId.pm line 99.
+ at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/CompanyId.pm line 99.
+	Cpanel::Plugins::Components::Rules::CompanyId::is_allowed(Cpanel::Plugins::Components::Rules::CompanyId=HASH(0x4cc41e8)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/Base.pm line 56
+	Cpanel::Plugins::Components::Rules::Base::process_rule(Cpanel::Plugins::Components::Rules::And=HASH(0x4c9bcc8), "company-id", ARRAY(0x4bf7198)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/And.pm line 117
+	Cpanel::Plugins::Components::Rules::And::is_allowed(Cpanel::Plugins::Components::Rules::And=HASH(0x4c9bcc8)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/Base.pm line 56
+	Cpanel::Plugins::Components::Rules::Base::process_rule(Cpanel::Plugins::Components::Rules::Base=HASH(0x4c9b8c0), ARRAY(0x4c14568), "") called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules.pm line 120
+	Cpanel::Plugins::Components::Rules::is_allowed(Cpanel::Plugins::Components::Rules=HASH(0x4c92590)) called at /usr/local/cpanel/Cpanel/Plugins/Components/whostmgr/home/360_prerelease_education.pm line 141
+	Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education::__ANON__(Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education=HASH(0x4c376b0)) called at (eval 951) line 21
+	Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education::is_enabled(Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education=HASH(0x4c376b0)) called at /usr/local/cpanel/Cpanel/Plugins/Components.pm line 58
+	Cpanel::Plugins::Components::get_components("whostmgr", "home") called at /usr/local/cpanel/Cpanel/Template/Plugin/Components.pm line 64
+	Cpanel::Template::Plugin::Components::get_components(Cpanel::Template::Plugin::Components=HASH(0x2d018e0), "whostmgr", "home") called at /usr/local/cpanel/Cpanel/Template/Plugin/Components.pm line 83
+	Cpanel::Template::Plugin::Components::has_components_for(Cpanel::Template::Plugin::Components=HASH(0x2d018e0), "whostmgr", "home", "page-top") called at (eval 4) line 317
+	eval {...} called at (eval 4) line 317
+	eval {...} called at (eval 4) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x2af0fc0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x2c59558), Template::Context=HASH(0x2af0fc0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x2af0fc0), "master_templates/_defheader.tmpl") called at (eval 3) line 1
+	eval {...} called at (eval 3) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x2af0fc0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x2bea4d8), Template::Context=HASH(0x2af0fc0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x2af0fc0), "master_templates/master.tmpl", HASH(0x2bd9860), "localize me!") called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 410
+	Template::Context::include(Template::Context=HASH(0x2af0fc0), "master_templates/master.tmpl", HASH(0x2bd9860)) called at (eval 2) line 15
+	eval {...} called at (eval 2) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x2af0fc0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x2bd96c8), Template::Context=HASH(0x2af0fc0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x2af0fc0), Template::Document=HASH(0x2bd96c8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Service.pm line 94
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Service.pm line 91
+	Template::Service::process(Template::Service=HASH(0x2af0b88), "initial-setup-wizard/index.html.tt", HASH(0x2ae7230)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template.pm line 66
+	Template::process(Template=HASH(0x2af07e0), "initial-setup-wizard/index.html.tt", HASH(0x2ae7230)) called at /usr/local/cpanel/Cpanel/Template.pm line 473
+	Cpanel::Template::process_template("whostmgr", HASH(0x2ae7230)) called at whostmgr/bin/whostmgr3.pl line 212
+	main::initial_setup_wizard1() called at whostmgr/bin/whostmgr3.pl line 150
+	main::__ANON__(__CPANEL_HIDDEN__) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 364
+	Whostmgr::Dispatch::_do_call("initial_setup_wizard1", HASH(0x2abd208), HASH(0x2abcf50)) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 176
+	Whostmgr::Dispatch::dispatch("initial_setup_wizard1", 14337, ARRAY(0x2abcef0)) called at whostmgr/bin/whostmgr3.pl line 153
+
+
+[2024-10-21 12:55:46 +0200] warn [Internal Warning while parsing [stdin] 92500] Use of uninitialized value $current_company_id in numeric eq (==) at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/CompanyId.pm line 99.
+ at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/CompanyId.pm line 99.
+	Cpanel::Plugins::Components::Rules::CompanyId::is_allowed(Cpanel::Plugins::Components::Rules::CompanyId=HASH(0x43311c0)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/Base.pm line 56
+	Cpanel::Plugins::Components::Rules::Base::process_rule(Cpanel::Plugins::Components::Rules::And=HASH(0x43092d0), "company-id", ARRAY(0x42641b0)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/And.pm line 117
+	Cpanel::Plugins::Components::Rules::And::is_allowed(Cpanel::Plugins::Components::Rules::And=HASH(0x43092d0)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/Base.pm line 56
+	Cpanel::Plugins::Components::Rules::Base::process_rule(Cpanel::Plugins::Components::Rules::Base=HASH(0x4309a08), ARRAY(0x4280d60), "") called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules.pm line 120
+	Cpanel::Plugins::Components::Rules::is_allowed(Cpanel::Plugins::Components::Rules=HASH(0x42ff708)) called at /usr/local/cpanel/Cpanel/Plugins/Components/whostmgr/home/360_prerelease_education.pm line 141
+	Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education::__ANON__(Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education=HASH(0x42b1f28)) called at (eval 951) line 21
+	Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education::is_enabled(Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education=HASH(0x42b1f28)) called at /usr/local/cpanel/Cpanel/Plugins/Components.pm line 58
+	Cpanel::Plugins::Components::get_components("whostmgr", "home") called at /usr/local/cpanel/Cpanel/Template/Plugin/Components.pm line 64
+	Cpanel::Template::Plugin::Components::get_components(Cpanel::Template::Plugin::Components=HASH(0x2371a68), "whostmgr", "home") called at /usr/local/cpanel/Cpanel/Template/Plugin/Components.pm line 83
+	Cpanel::Template::Plugin::Components::has_components_for(Cpanel::Template::Plugin::Components=HASH(0x2371a68), "whostmgr", "home", "page-top") called at (eval 4) line 317
+	eval {...} called at (eval 4) line 317
+	eval {...} called at (eval 4) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x214cce8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x22c89b0), Template::Context=HASH(0x214cce8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x214cce8), "master_templates/_defheader.tmpl") called at (eval 3) line 1
+	eval {...} called at (eval 3) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x214cce8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x226d230), Template::Context=HASH(0x214cce8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x214cce8), "master_templates/master.tmpl", HASH(0x2205d08), "localize me!") called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 410
+	Template::Context::include(Template::Context=HASH(0x214cce8), "master_templates/master.tmpl", HASH(0x2205d08)) called at (eval 2) line 15
+	eval {...} called at (eval 2) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x214cce8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x2205b70), Template::Context=HASH(0x214cce8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x214cce8), Template::Document=HASH(0x2205b70)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Service.pm line 94
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Service.pm line 91
+	Template::Service::process(Template::Service=HASH(0x214c8b0), "initial-setup-wizard/index.html.tt", HASH(0x215c558)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template.pm line 66
+	Template::process(Template=HASH(0x214c508), "initial-setup-wizard/index.html.tt", HASH(0x215c558)) called at /usr/local/cpanel/Cpanel/Template.pm line 473
+	Cpanel::Template::process_template("whostmgr", HASH(0x215c558)) called at whostmgr/bin/whostmgr3.pl line 212
+	main::initial_setup_wizard1() called at whostmgr/bin/whostmgr3.pl line 150
+	main::__ANON__(__CPANEL_HIDDEN__) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 364
+	Whostmgr::Dispatch::_do_call("initial_setup_wizard1/trial-activation", HASH(0x21321f0), HASH(0x2132058)) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 176
+	Whostmgr::Dispatch::dispatch("initial_setup_wizard1/trial-activation", 14337, ARRAY(0x2131fc8)) called at whostmgr/bin/whostmgr3.pl line 153
+
+
+[2024-10-21 12:55:46 +0200] warn [Internal Warning while parsing [stdin] 92500] Use of uninitialized value $current_company_id in numeric eq (==) at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/CompanyId.pm line 99.
+ at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/CompanyId.pm line 99.
+	Cpanel::Plugins::Components::Rules::CompanyId::is_allowed(Cpanel::Plugins::Components::Rules::CompanyId=HASH(0x43311c0)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/Base.pm line 56
+	Cpanel::Plugins::Components::Rules::Base::process_rule(Cpanel::Plugins::Components::Rules::And=HASH(0x43092d0), "company-id", ARRAY(0x42641b0)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/And.pm line 117
+	Cpanel::Plugins::Components::Rules::And::is_allowed(Cpanel::Plugins::Components::Rules::And=HASH(0x43092d0)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/Base.pm line 56
+	Cpanel::Plugins::Components::Rules::Base::process_rule(Cpanel::Plugins::Components::Rules::Base=HASH(0x4309a08), ARRAY(0x4280d60), "") called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules.pm line 120
+	Cpanel::Plugins::Components::Rules::is_allowed(Cpanel::Plugins::Components::Rules=HASH(0x42ff708)) called at /usr/local/cpanel/Cpanel/Plugins/Components/whostmgr/home/360_prerelease_education.pm line 141
+	Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education::__ANON__(Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education=HASH(0x42b1f28)) called at (eval 951) line 21
+	Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education::is_enabled(Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education=HASH(0x42b1f28)) called at /usr/local/cpanel/Cpanel/Plugins/Components.pm line 58
+	Cpanel::Plugins::Components::get_components("whostmgr", "home") called at /usr/local/cpanel/Cpanel/Template/Plugin/Components.pm line 64
+	Cpanel::Template::Plugin::Components::get_components(Cpanel::Template::Plugin::Components=HASH(0x2371a68), "whostmgr", "home") called at /usr/local/cpanel/Cpanel/Template/Plugin/Components.pm line 83
+	Cpanel::Template::Plugin::Components::has_components_for(Cpanel::Template::Plugin::Components=HASH(0x2371a68), "whostmgr", "home", "page-top") called at (eval 4) line 317
+	eval {...} called at (eval 4) line 317
+	eval {...} called at (eval 4) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x214cce8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x22c89b0), Template::Context=HASH(0x214cce8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x214cce8), "master_templates/_defheader.tmpl") called at (eval 3) line 1
+	eval {...} called at (eval 3) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x214cce8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x226d230), Template::Context=HASH(0x214cce8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x214cce8), "master_templates/master.tmpl", HASH(0x2205d08), "localize me!") called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 410
+	Template::Context::include(Template::Context=HASH(0x214cce8), "master_templates/master.tmpl", HASH(0x2205d08)) called at (eval 2) line 15
+	eval {...} called at (eval 2) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x214cce8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x2205b70), Template::Context=HASH(0x214cce8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x214cce8), Template::Document=HASH(0x2205b70)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Service.pm line 94
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Service.pm line 91
+	Template::Service::process(Template::Service=HASH(0x214c8b0), "initial-setup-wizard/index.html.tt", HASH(0x215c558)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template.pm line 66
+	Template::process(Template=HASH(0x214c508), "initial-setup-wizard/index.html.tt", HASH(0x215c558)) called at /usr/local/cpanel/Cpanel/Template.pm line 473
+	Cpanel::Template::process_template("whostmgr", HASH(0x215c558)) called at whostmgr/bin/whostmgr3.pl line 212
+	main::initial_setup_wizard1() called at whostmgr/bin/whostmgr3.pl line 150
+	main::__ANON__(__CPANEL_HIDDEN__) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 364
+	Whostmgr::Dispatch::_do_call("initial_setup_wizard1/trial-activation", HASH(0x21321f0), HASH(0x2132058)) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 176
+	Whostmgr::Dispatch::dispatch("initial_setup_wizard1/trial-activation", 14337, ARRAY(0x2131fc8)) called at whostmgr/bin/whostmgr3.pl line 153
+
+
+[2024-10-21 12:56:03 +0200] info [xml-api] (XID esyhft) The cPanel Store returned an error (X::EmailNotVerified::EmailSent) in response to the request “POST order/529401/purchase/no-cost”: One or more of the selected items require you verify your email before checking out. An email with a verification code has been sent. [purchase_a_trial] version [1].
+[2024-10-21 12:56:06 +0200] warn [Internal Warning while parsing [stdin] 92573] Use of uninitialized value $current_company_id in numeric eq (==) at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/CompanyId.pm line 99.
+ at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/CompanyId.pm line 99.
+	Cpanel::Plugins::Components::Rules::CompanyId::is_allowed(Cpanel::Plugins::Components::Rules::CompanyId=HASH(0x52d8dd8)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/Base.pm line 56
+	Cpanel::Plugins::Components::Rules::Base::process_rule(Cpanel::Plugins::Components::Rules::And=HASH(0x52ca3e8), "company-id", ARRAY(0x520b358)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/And.pm line 117
+	Cpanel::Plugins::Components::Rules::And::is_allowed(Cpanel::Plugins::Components::Rules::And=HASH(0x52ca3e8)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/Base.pm line 56
+	Cpanel::Plugins::Components::Rules::Base::process_rule(Cpanel::Plugins::Components::Rules::Base=HASH(0x52b1680), ARRAY(0x5228998), "") called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules.pm line 120
+	Cpanel::Plugins::Components::Rules::is_allowed(Cpanel::Plugins::Components::Rules=HASH(0x52a7510)) called at /usr/local/cpanel/Cpanel/Plugins/Components/whostmgr/home/360_prerelease_education.pm line 141
+	Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education::__ANON__(Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education=HASH(0x5259d70)) called at (eval 951) line 21
+	Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education::is_enabled(Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education=HASH(0x5259d70)) called at /usr/local/cpanel/Cpanel/Plugins/Components.pm line 58
+	Cpanel::Plugins::Components::get_components("whostmgr", "home") called at /usr/local/cpanel/Cpanel/Template/Plugin/Components.pm line 64
+	Cpanel::Template::Plugin::Components::get_components(Cpanel::Template::Plugin::Components=HASH(0x3314100), "whostmgr", "home") called at /usr/local/cpanel/Cpanel/Template/Plugin/Components.pm line 83
+	Cpanel::Template::Plugin::Components::has_components_for(Cpanel::Template::Plugin::Components=HASH(0x3314100), "whostmgr", "home", "page-top") called at (eval 4) line 317
+	eval {...} called at (eval 4) line 317
+	eval {...} called at (eval 4) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x3108ca0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x326acc8), Template::Context=HASH(0x3108ca0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x3108ca0), "master_templates/_defheader.tmpl") called at (eval 3) line 1
+	eval {...} called at (eval 3) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x3108ca0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x320f508), Template::Context=HASH(0x3108ca0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x3108ca0), "master_templates/master.tmpl", HASH(0x31a8190), "localize me!") called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 410
+	Template::Context::include(Template::Context=HASH(0x3108ca0), "master_templates/master.tmpl", HASH(0x31a8190)) called at (eval 2) line 15
+	eval {...} called at (eval 2) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x3108ca0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x31a7ff8), Template::Context=HASH(0x3108ca0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x3108ca0), Template::Document=HASH(0x31a7ff8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Service.pm line 94
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Service.pm line 91
+	Template::Service::process(Template::Service=HASH(0x3108868), "initial-setup-wizard/index.html.tt", HASH(0x30fe840)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template.pm line 66
+	Template::process(Template=HASH(0x31084c0), "initial-setup-wizard/index.html.tt", HASH(0x30fe840)) called at /usr/local/cpanel/Cpanel/Template.pm line 473
+	Cpanel::Template::process_template("whostmgr", HASH(0x30fe840)) called at whostmgr/bin/whostmgr3.pl line 212
+	main::initial_setup_wizard1() called at whostmgr/bin/whostmgr3.pl line 150
+	main::__ANON__(__CPANEL_HIDDEN__) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 364
+	Whostmgr::Dispatch::_do_call("initial_setup_wizard1/trial-activation", HASH(0x30d4240), HASH(0x30e1238)) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 176
+	Whostmgr::Dispatch::dispatch("initial_setup_wizard1/trial-activation", 14337, ARRAY(0x30e0f38)) called at whostmgr/bin/whostmgr3.pl line 153
+
+
+[2024-10-21 12:56:06 +0200] warn [Internal Warning while parsing [stdin] 92573] Use of uninitialized value $current_company_id in numeric eq (==) at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/CompanyId.pm line 99.
+ at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/CompanyId.pm line 99.
+	Cpanel::Plugins::Components::Rules::CompanyId::is_allowed(Cpanel::Plugins::Components::Rules::CompanyId=HASH(0x52d8dd8)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/Base.pm line 56
+	Cpanel::Plugins::Components::Rules::Base::process_rule(Cpanel::Plugins::Components::Rules::And=HASH(0x52ca3e8), "company-id", ARRAY(0x520b358)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/And.pm line 117
+	Cpanel::Plugins::Components::Rules::And::is_allowed(Cpanel::Plugins::Components::Rules::And=HASH(0x52ca3e8)) called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules/Base.pm line 56
+	Cpanel::Plugins::Components::Rules::Base::process_rule(Cpanel::Plugins::Components::Rules::Base=HASH(0x52b1680), ARRAY(0x5228998), "") called at /usr/local/cpanel/Cpanel/Plugins/Components/Rules.pm line 120
+	Cpanel::Plugins::Components::Rules::is_allowed(Cpanel::Plugins::Components::Rules=HASH(0x52a7510)) called at /usr/local/cpanel/Cpanel/Plugins/Components/whostmgr/home/360_prerelease_education.pm line 141
+	Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education::__ANON__(Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education=HASH(0x5259d70)) called at (eval 951) line 21
+	Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education::is_enabled(Cpanel::Plugins::Components::whostmgr::home::360_prerelease_education=HASH(0x5259d70)) called at /usr/local/cpanel/Cpanel/Plugins/Components.pm line 58
+	Cpanel::Plugins::Components::get_components("whostmgr", "home") called at /usr/local/cpanel/Cpanel/Template/Plugin/Components.pm line 64
+	Cpanel::Template::Plugin::Components::get_components(Cpanel::Template::Plugin::Components=HASH(0x3314100), "whostmgr", "home") called at /usr/local/cpanel/Cpanel/Template/Plugin/Components.pm line 83
+	Cpanel::Template::Plugin::Components::has_components_for(Cpanel::Template::Plugin::Components=HASH(0x3314100), "whostmgr", "home", "page-top") called at (eval 4) line 317
+	eval {...} called at (eval 4) line 317
+	eval {...} called at (eval 4) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x3108ca0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x326acc8), Template::Context=HASH(0x3108ca0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x3108ca0), "master_templates/_defheader.tmpl") called at (eval 3) line 1
+	eval {...} called at (eval 3) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x3108ca0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x320f508), Template::Context=HASH(0x3108ca0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x3108ca0), "master_templates/master.tmpl", HASH(0x31a8190), "localize me!") called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 410
+	Template::Context::include(Template::Context=HASH(0x3108ca0), "master_templates/master.tmpl", HASH(0x31a8190)) called at (eval 2) line 15
+	eval {...} called at (eval 2) line 1
+	Cpanel::Template::Shared::__ANON__(Template::Context=HASH(0x3108ca0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 165
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Document.pm line 163
+	Template::Document::process(Template::Document=HASH(0x31a7ff8), Template::Context=HASH(0x3108ca0)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 352
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Context.pm line 322
+	Template::Context::process(Template::Context=HASH(0x3108ca0), Template::Document=HASH(0x31a7ff8)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Service.pm line 94
+	eval {...} called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template/Service.pm line 91
+	Template::Service::process(Template::Service=HASH(0x3108868), "initial-setup-wizard/index.html.tt", HASH(0x30fe840)) called at /usr/local/cpanel/3rdparty/perl/536/cpanel-lib/x86_64-linux/Template.pm line 66
+	Template::process(Template=HASH(0x31084c0), "initial-setup-wizard/index.html.tt", HASH(0x30fe840)) called at /usr/local/cpanel/Cpanel/Template.pm line 473
+	Cpanel::Template::process_template("whostmgr", HASH(0x30fe840)) called at whostmgr/bin/whostmgr3.pl line 212
+	main::initial_setup_wizard1() called at whostmgr/bin/whostmgr3.pl line 150
+	main::__ANON__(__CPANEL_HIDDEN__) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 364
+	Whostmgr::Dispatch::_do_call("initial_setup_wizard1/trial-activation", HASH(0x30d4240), HASH(0x30e1238)) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 176
+	Whostmgr::Dispatch::dispatch("initial_setup_wizard1/trial-activation", 14337, ARRAY(0x30e0f38)) called at whostmgr/bin/whostmgr3.pl line 153
+
+
+[2024-10-21 12:56:16 +0200] info [xml-api] (XID xgxkc9) The cPanel Store returned an error (X::EmailNotVerified::EmailSent) in response to the request “POST order/529405/purchase/no-cost”: One or more of the selected items require you verify your email before checking out. An email with a verification code has been sent. [purchase_a_trial] version [1].
+[2024-10-21 12:56:39 +0200] info [xml-api] (XID ura58t) The cPanel Store returned an error (X::EmailNotVerified) in response to the request “POST order/529409/purchase/no-cost”: One or more of the selected items require you verify your email before checking out. [purchase_a_trial] version [1].
+[2024-10-21 12:57:10 +0200]: “/usr/local/cpanel/scripts/restartsrv_cpsrvd ” called by (92641 - queueprocd - process - restartsrv)
+[2024-10-21 12:57:10 +0200] info [cpsrvd] Restarting cpsrvd daemon process 38442 via /usr/local/cpanel/cpsrvd
+==> cpsrvd 11.122.0.21 started
+==> cpsrvd: loading security policy....Done
+==> cpsrvd: Setting up SSL support ... Done
+==> cpsrvd: transferred port bindings: 10,3,4,5,6,7,8,9
+==> cpsrvd: bound to ports
+[2024-10-21 12:57:10 +0200] info [cpsrvd] version 11.122.0.21 online

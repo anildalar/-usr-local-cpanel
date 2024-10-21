@@ -90,3 +90,44 @@ For more information visit: https://www.cpanel.net/lic/
 
 The exact message was: No valid cPanel/WHM license found. (185.239.209.8)
 Mon Oct 21 12:39:51 2024: License update failed after trying 1 server
+Mon Oct 21 12:49:59 2024: License request made by process 91914 - queueprocd - process - check
+Mon Oct 21 12:49:59 2024: License Update Request
+Mon Oct 21 12:49:59 2024: Using full manual DNS resolution
+Mon Oct 21 12:49:59 2024: Trying server 208.74.121.85
+Mon Oct 21 12:49:59 2024: Connected using local address 185.239.209.8
+Mon Oct 21 12:50:00 2024: Server 208.74.121.85 on port 2089 returned:
+No valid cPanel/WHM license found. (185.239.209.8)
+
+Mon Oct 21 12:50:00 2024: The cPanel license server said that a license could not be issued for your server (66).
+For more information visit: https://www.cpanel.net/lic/
+
+The exact message was: No valid cPanel/WHM license found. (185.239.209.8)
+Mon Oct 21 12:50:00 2024: License update failed after trying 1 server
+Mon Oct 21 12:53:58 2024: License request made by process 92233 - queueprocd - process - check
+Mon Oct 21 12:53:58 2024: License Update Request
+Mon Oct 21 12:53:58 2024: Using full manual DNS resolution
+Mon Oct 21 12:53:58 2024: Trying server 208.74.121.83
+Mon Oct 21 12:53:58 2024: Connected using local address 185.239.209.8
+Mon Oct 21 12:53:59 2024: Server 208.74.121.83 on port 2089 returned:
+No valid cPanel/WHM license found. (185.239.209.8)
+
+Mon Oct 21 12:53:59 2024: The cPanel license server said that a license could not be issued for your server (66).
+For more information visit: https://www.cpanel.net/lic/
+
+The exact message was: No valid cPanel/WHM license found. (185.239.209.8)
+Mon Oct 21 12:53:59 2024: License update failed after trying 1 server
+Mon Oct 21 12:57:07 2024: License request made by process 92634 - xml-api - run_cpkeyclt
+Mon Oct 21 12:57:07 2024: License Update Request
+Mon Oct 21 12:57:07 2024: Using full manual DNS resolution
+Mon Oct 21 12:57:07 2024: Trying server 208.74.121.85
+Mon Oct 21 12:57:08 2024: Connected using local address 185.239.209.8
+Mon Oct 21 12:57:08 2024: Server 208.74.121.85 on port 2089 returned:
+Key Accepted
+Key Follows
+Mon Oct 21 12:57:09 2024: Obtained lock license file
+Mon Oct 21 12:57:09 2024: Update extended auth token
+Mon Oct 21 12:57:09 2024: Update openid connect client credentials
+Mon Oct 21 12:57:09 2024: Accepted 31.002 license from server 208.74.121.85 on port 2089
+Mon Oct 21 12:57:09 2024: License update succeeded after trying 1 server
+Mon Oct 21 12:57:09 2024: Scheduling cpsrvd restart for product type change (graceful with autofallback to hard)
+Mon Oct 21 12:57:09 2024: Detected a possible product type change. Scheduling a job to enable/disable services.

@@ -21,3 +21,21 @@ Oct 21 12:34:46.519 [88111] info: spamd: server pid: 88111
 Oct 21 12:34:46.522 [88111] info: spamd: server successfully spawned child process, pid 88215
 Oct 21 12:34:46.527 [88111] info: spamd: server successfully spawned child process, pid 88216
 Oct 21 12:34:46.531 [88111] info: prefork: child states: II
+Oct 21 12:44:54.465 [88111] info: zoom: able to use 1208/1209 'body_0' compiled rules (99.917%)
+Oct 21 12:44:56.139 [88111] info: spamd: server started on IO::Socket::INET6 [\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{00}\x{01}]:783, IO::Socket::INET [\x{7F}\x{00}\x{00}\x{01}]:783 (running version 4.0.1)
+Oct 21 12:44:56.142 [88111] info: spamd: server pid: 88111
+Oct 21 12:44:56.145 [88111] info: spamd: server successfully spawned child process, pid 91452
+Oct 21 12:44:56.150 [88111] info: spamd: server successfully spawned child process, pid 91453
+Oct 21 12:44:56.155 [88111] info: prefork: child states: BS
+Oct 21 12:44:56.161 [88111] info: spamd: server successfully spawned child process, pid 91454
+Oct 21 12:44:56.163 [91452] info: spamd: connection from localhost [::1]:55806 to port 783, fd 5
+Oct 21 12:44:56.174 [88111] info: prefork: adjust: 0 idle children less than 1 minimum idle children.  Increasing spamd children: 91454 started.
+Oct 21 12:44:56.175 [88111] info: prefork: child states: BII
+Oct 21 12:44:56.237 [88111] info: prefork: child states: III
+Oct 21 12:44:56.238 [88111] info: prefork: adjust: 3 idle children more than 2 maximum idle children. Decreasing spamd children: 91454 killed.
+Oct 21 12:44:56.246 [88111] info: prefork: child states: IIK
+Oct 21 12:44:56.247 [88111] info: spamd: handled cleanup of child pid [91454] due to SIGCHLD: interrupted, signal 2 (0002)
+Oct 21 12:49:58.421 [91452] info: spamd: connection from localhost [::1]:47050 to port 783, fd 5
+Oct 21 12:49:58.507 [88111] info: prefork: child states: II
+Oct 21 12:55:00.760 [91452] info: spamd: connection from localhost [::1]:49496 to port 783, fd 5
+Oct 21 12:55:00.867 [88111] info: prefork: child states: II

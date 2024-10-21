@@ -3457,3 +3457,24 @@ No user sessions are running outdated binaries.
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 WPTK Install Complete
 [2024-10-21 12:36:21 +0200] info [queueprocd] WP Toolkit installation succeeded.
+[2024-10-21 12:57:10 +0200] info [queueprocd] Updating roles after server type change.
+[2024-10-21 12:57:10 +0200] info [queueprocd] Product type is STANDARD, skipping profile activation.
+[2024-10-21 12:57:10 +0200] info [queueprocd] “/usr/local/cpanel/scripts/restartsrv_cpsrvd”: Waiting for “cpsrvd” to restart gracefully ………waiting for “cpsrvd” to initialize ………finished.
+
+Service Status
+	cpanel (cpsrvd (SSL) - waiting for connections                    ) is running as root with PID 38442 (systemd+/proc check method).
+
+Startup Log
+	Oct 21 12:34:24 vmi2142662 systemd[1]: /etc/systemd/system/cpanel.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/cpsrvd.pid → /run/cpsrvd.pid; please update the unit file accordingly.
+	Oct 21 12:34:24 vmi2142662 systemd[1]: /etc/systemd/system/cpanel.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/cpsrvd.pid → /run/cpsrvd.pid; please update the unit file accordingly.
+	Oct 21 12:34:24 vmi2142662 systemd[1]: /etc/systemd/system/cpanel.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/cpsrvd.pid → /run/cpsrvd.pid; please update the unit file accordingly.
+	Oct 21 12:34:25 vmi2142662 systemd[1]: /etc/systemd/system/cpanel.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/cpsrvd.pid → /run/cpsrvd.pid; please update the unit file accordingly.
+	Oct 21 12:34:25 vmi2142662 systemd[1]: /etc/systemd/system/cpanel.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/cpsrvd.pid → /run/cpsrvd.pid; please update the unit file accordingly.
+	Oct 21 12:35:24 vmi2142662 systemd[1]: /etc/systemd/system/cpanel.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/cpsrvd.pid → /run/cpsrvd.pid; please update the unit file accordingly.
+	Oct 21 12:35:26 vmi2142662 systemd[1]: /etc/systemd/system/cpanel.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/cpsrvd.pid → /run/cpsrvd.pid; please update the unit file accordingly.
+	Oct 21 12:36:15 vmi2142662 systemd[1]: /etc/systemd/system/cpanel.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/cpsrvd.pid → /run/cpsrvd.pid; please update the unit file accordingly.
+	Oct 21 12:36:15 vmi2142662 systemd[1]: /etc/systemd/system/cpanel.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/cpsrvd.pid → /run/cpsrvd.pid; please update the unit file accordingly.
+	Oct 21 12:36:16 vmi2142662 systemd[1]: /etc/systemd/system/cpanel.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/cpsrvd.pid → /run/cpsrvd.pid; please update the unit file accordingly.
+
+cpsrvd restarted successfully.
+
