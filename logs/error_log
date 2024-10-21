@@ -1534,3 +1534,33 @@ License Check Failed: Cannot read license file
 ==> cpsrvd: bound to ports
 [2024-10-21 13:10:05 +0200] info [cpsrvd] version 11.122.0.21 online
 License not active, shutting down.
+[2024-10-21 13:26:45 +0200]: “/scripts/restartsrv_cpsrvd ” called by (14673 - -bash)
+-- RESTART MARKER (PID 96511 at Mon Oct 21 13:26:45 2024 - 1729510005)--
+-- RESTART MARKER (PID 96553 at Mon Oct 21 13:26:53 2024 - 1729510013)--
+[2024-10-21 13:26:57 +0200]: “/usr/local/cpanel/scripts/restartsrv_dovecot --restart --hard --attempt 1” called by (96568 - tailwatchd - chkservd - imap check)
+[2024-10-21 13:27:10 +0200]: “/usr/local/cpanel/scripts/restartsrv_exim --restart --hard --attempt 1” called by (96568 - tailwatchd - chkservd - exim check)
+==> cpsrvd 11.122.0.21 started
+==> cpsrvd: loading security policy....Done
+==> cpsrvd: Setting up SSL support ... Done
+==> cpsrvd: transferred port bindings: 3,4,5,6,7,8,9,10,11,12
+==> cpsrvd: bound to ports
+[2024-10-21 13:27:17 +0200] info [cpsrvd] version 11.122.0.21 online
+[2024-10-21 13:28:24 +0200] warn [Internal Warning while parsing [stdin] 96921] Use of uninitialized value $selected_option in string eq at /usr/local/cpanel/Cpanel/Config/ConfigObj/Driver/Sitejet.pm line 67.
+ at /usr/local/cpanel/Cpanel/Config/ConfigObj/Driver/Sitejet.pm line 67.
+	Cpanel::Config::ConfigObj::Driver::Sitejet::handle_showcase_submission(Cpanel::Config::ConfigObj::Driver::Sitejet=HASH(0x3520360), HASH(0xf73878)) called at whostmgr/bin/whostmgr3.pl line 443
+	eval {...} called at whostmgr/bin/whostmgr3.pl line 443
+	main::feature_showcase_do("feature_showcase_do") called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 364
+	Whostmgr::Dispatch::_do_call("feature_showcase_do", HASH(0x2d68e18), HASH(0x2d68860)) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 176
+	Whostmgr::Dispatch::dispatch("feature_showcase_do", 14337, ARRAY(0x2d68a10)) called at whostmgr/bin/whostmgr3.pl line 153
+
+
+[2024-10-21 13:28:24 +0200] warn [Internal Warning while parsing [stdin] 96921] Use of uninitialized value $selected_option in string eq at /usr/local/cpanel/Cpanel/Config/ConfigObj/Driver/Sitejet.pm line 70.
+ at /usr/local/cpanel/Cpanel/Config/ConfigObj/Driver/Sitejet.pm line 67.
+	Cpanel::Config::ConfigObj::Driver::Sitejet::handle_showcase_submission(Cpanel::Config::ConfigObj::Driver::Sitejet=HASH(0x3520360), HASH(0xf73878)) called at whostmgr/bin/whostmgr3.pl line 443
+	eval {...} called at whostmgr/bin/whostmgr3.pl line 443
+	main::feature_showcase_do("feature_showcase_do") called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 364
+	Whostmgr::Dispatch::_do_call("feature_showcase_do", HASH(0x2d68e18), HASH(0x2d68860)) called at /usr/local/cpanel/Whostmgr/Dispatch.pm line 176
+	Whostmgr::Dispatch::dispatch("feature_showcase_do", 14337, ARRAY(0x2d68a10)) called at whostmgr/bin/whostmgr3.pl line 153
+
+
+[2024-10-21 13:28:27 +0200] info [whostmgrd] Successfully verified signature for cpanel (key types: release).

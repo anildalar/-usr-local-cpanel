@@ -53,3 +53,8 @@
 [2024-10-21 13:19:07 +0200] [sepxferlog]
 [2024-10-21 13:19:07 +0200] [sepxferlog] complete
 [2024-10-21 13:19:07 +0200] Done Checking Logs
+[2024-10-21 13:27:28 +0200] Checking Bandwidth
+[2024-10-21 13:27:28 +0200] I/O: best-effort: prio 6
+[2024-10-21 13:27:28 +0200] Processing bandwidth.
+[2024-10-21 13:27:28 +0200] Done Checking Bandwidth
+==> Retention days: 10

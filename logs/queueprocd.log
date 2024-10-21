@@ -3478,3 +3478,4 @@ Startup Log
 
 cpsrvd restarted successfully.
 
+Failed to save the cached header for 'root' reseller: (XID 8bp5g7) The system failed to create the file “/var/cpanel/caches/_generated_header_files/.tmp.813.2682542574_1_1.html” with permissions “0600” (as [asis,EUID]: 0, [asis,EGID]: 0) because of the following error: No such file or directory at /usr/local/cpanel/Whostmgr/Templates/Chrome.pm line 137.

@@ -36,3 +36,29 @@
 [38503] [2024-10-21 12:32:49 +0200] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1729504800 - 1729508400
 [38503] [2024-10-21 12:32:49 +0200] [Cpanel::TailWatch] [INFO] Flushing all readers
 [38503] [2024-10-21 13:00:00 +0200] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1729508400
+Waiting for “dovecot” to restart ………waiting for “dovecot” to initialize ………finished.
+
+Service Status
+	dovecot (/etc/systemd/system/dovecot.service - simple) is running with PID 96653 (systemd check method).
+
+Startup Log
+	Oct 21 13:26:58 vmi2142662 systemd[1]: Started Dovecot Imap Server.
+	Oct 21 13:26:59 vmi2142662 dovecot[96653]: master: Dovecot v2.3.21 (47349e2482) starting up for lmtp, imap, pop3 (core dumps disabled)
+
+dovecot restarted successfully.
+Waiting for “exim” to restart ………waiting for “exim” to initialize ………finished.
+
+Service Status
+	exim (/usr/sbin/exim -ps -bd -q15m -oP /var/spool/exim/exim-daemon.pid) is running as mailnull with PID 96719 (systemd+/proc check method).
+
+Startup Log
+	Oct 21 13:27:10 vmi2142662 systemd[1]: Starting Exim is a Mail Transport Agent, which is the program that moves mail from one machine to another....
+	Oct 21 13:27:10 vmi2142662 systemd[1]: Started Exim is a Mail Transport Agent, which is the program that moves mail from one machine to another..
+
+Log Messages
+	2024-10-21 13:27:10 exim 4.97.1 daemon started: pid=96719, -q15m, listening for SMTP on port 25 (IPv6 and IPv4) port 587 (IPv6 and IPv4) and for SMTPS on port 465 (IPv6 and IPv4)
+	2024-10-21 12:29:06 exim 4.97.1 daemon started: pid=38921, -q1h, listening for SMTP on port 25 (IPv6 and IPv4) port 587 (IPv6 and IPv4) and for SMTPS on port 465 (IPv6 and IPv4)
+	2024-10-21 12:29:05 exim 4.97.1 daemon started: pid=38665, -q1h, listening for SMTP on port 25 (IPv6 and IPv4) port 587 (IPv6 and IPv4) and for SMTPS on port 465 (IPv6 and IPv4)
+	2024-10-21 12:29:03 exim 4.97.1 daemon started: pid=38477, -q1h, listening for SMTP on port 25 (IPv6 and IPv4) port 587 (IPv6 and IPv4) and for SMTPS on port 465 (IPv6 and IPv4)
+
+exim restarted successfully.
